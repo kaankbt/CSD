@@ -1,0 +1,5 @@
+org\csystem\app\App.class
+org\csystem\app\configuration\FileIOConfig.class
+org\csystem\app\runner\FirstGeneratorRunner.class
+org\csystem\app\runner\SecondGeneratorRunner.class
+org\csystem\app\configuration\RandomConfig.class

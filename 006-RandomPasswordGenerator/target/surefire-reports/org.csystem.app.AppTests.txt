@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.csystem.app.AppTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 45.969 s - in org.csystem.app.AppTests
