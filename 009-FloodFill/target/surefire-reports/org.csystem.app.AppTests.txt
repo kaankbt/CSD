@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: org.csystem.app.AppTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.578 s <<< FAILURE! - in org.csystem.app.AppTests
+contextLoads  Time elapsed: 0.023 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'floodFillRunner' defined in file [C:\Users\krmkb\Desktop\CSD Spring\009-FloodFill\target\classes\org\csystem\app\runner\FloodFillRunner.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getImage' defined in class path resource [org/csystem/app/configuration/AsciiImageConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.csystem.util.image.AsciiImage]: Factory method 'getImage' threw exception; nested exception is java.lang.ArrayIndexOutOfBoundsException: Index 25 out of bounds for length 25
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getImage' defined in class path resource [org/csystem/app/configuration/AsciiImageConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.csystem.util.image.AsciiImage]: Factory method 'getImage' threw exception; nested exception is java.lang.ArrayIndexOutOfBoundsException: Index 25 out of bounds for length 25
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.csystem.util.image.AsciiImage]: Factory method 'getImage' threw exception; nested exception is java.lang.ArrayIndexOutOfBoundsException: Index 25 out of bounds for length 25
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 25 out of bounds for length 25
+
