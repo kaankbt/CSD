@@ -1,0 +1,11 @@
+org\csystem\app\App.class
+org\csystem\app\data\dal\MovieServiceAppHelper.class
+org\csystem\app\service\MovieAppService.class
+org\csystem\app\controller\MovieController.class
+org\csystem\app\mapper\dto\MovieDTO.class
+org\csystem\app\data\entity\Movie.class
+org\csystem\app\data\repository\MovieRepository.class
+org\csystem\app\data\repository\IMovieRepository.class
+org\csystem\app\mapper\dto\MoviesDTO.class
+org\csystem\app\mapper\IMovieMapper.class
+org\csystem\app\mapper\MovieMapperImpl.class
